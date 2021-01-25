@@ -31,7 +31,7 @@ public class GroupMenu{
 }
 ```
 YuQ 会在指令式机器人的开发中，提供非常好的帮助，让开发者能有更好的开发体验。  
-在 Controller 中，我们的 Action 方法，返回的内容，会直接构建成消息，并发送当当前消息源。  
+在 Controller 中，我们的 Action 方法，返回的内容，会直接构建成消息，并发送到当前消息源。  
 通过路由映射，我们可以很方便的编写指令，只需要将 Class 声明为一个 Controller，并且编写 Action 方法。  
 其余的，YuQ 会帮您完成。  
 
